@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Achieve Africa</title>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Images/MicrosoftTeams-image.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">ABOUT</a></li>
+                            <li><a href="">BLOG</a></li>
+                            <li><a href="">CONTACT</a></li>
+                        </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>No Poverty</h1>
+                <p>Uplifting individuals out of poverty and also contributing to the growth of a more <br> prosperous Africa.</p>
+                <a href="" class="hero-btn">Contact us to know more</a>
+            </div>
+        </section>
+
+        <section class="goal">
+            <h1>Our Goal</h1>
+            <p>Achieve meaningful progress toward a more equitable and prosperous continent.<br> Our project is a beacon of hope, enabling those who previously lacked the means to create income to turn their situations around, ultimately building a brighter future for all of Africa.</p>
+
+            <div class="row">
+                <div class="goal-col">
+                    <h3>No Poverty</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="goal-col">
+                    <h3>Quality Education</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                <div class="goal-col">
+                    <h3>Decent work and <br> economic growth</h3>
+                    <p>We shall empower individuals with skills by bridging the gap</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Testimonials-->
+        <section class="testimonials">
+            <h1>What our Partners say</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus odio inventore qui nobis voluptate. Sit deserunt accusantium officia quod. Fugiat deleniti aliquam inventore illum, harum voluptatem molestiae ut? Amet, sed.</p>
+
+            <div class="row">
+                <div class="testimonials-col">
+                    
+                </div>
+            </div>
+        </section>
+
+        <!---JavaScript for Menu--->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
